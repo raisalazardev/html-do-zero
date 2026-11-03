@@ -1,0 +1,60 @@
+/* 
+   TRILHA DE CSS | VÍDEO 1: SEU PRIMEIRO CSS
+   Página que vamos estilizar: o HTML do vídeo 1 da trilha de HTML.
+
+   O QUE É CSS?
+   HTML = o esqueleto (o que existe na página)
+   CSS  = a roupa (como aquilo aparece: cores, fontes, espaços)
+
+   ANATOMIA DE UMA REGRA CSS:
+
+   seletor {                <- QUEM vai receber o estilo
+     propriedade: valor;    <- O QUE muda e COMO fica
+   }
+
+   COMO ESTAMOS USANDO CSS:
+    ARQUIVO EXTERNO: este style.css, ligado no head do HTML com
+      <link rel="stylesheet" href="style.css">                  (a melhor!)
+    */
+
+/* O body é o "corpo" da página: o que for definido aqui vale para quase tudo */
+body {
+  font-family: Arial, sans-serif; /* tipo de letra */
+  background-color: #05070d; /* cor de fundo */
+  color: #9aa7c0; /* cor do texto */
+  line-height: 1.6; /* espaço entre as linhas */
+  max-width: 700px; /* limita a largura para ler melhor */
+  margin: 0 auto; /* centraliza na tela */
+  padding: 32px 24px; /* espaço interno */
+}
+
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+  color: #2f6bff;
+  margin-top: 32px;
+}
+
+/* <code> mostra as tags na tela: damos um fundo para destacar */
+code {
+  background-color: #0b1b3d;
+  color: #ffffff;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+strong {
+  color: #ffffff;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+footer {
+  margin-top: 48px;
+  text-align: center;
+  font-size: 0.9rem; /* tamanho da letra (um pouco menor que o normal) */
+}

@@ -1,0 +1,59 @@
+<!--
+  TRILHA HTML: Seu primeiro arquivo HTML | Canal Raí Salazar @devraisalazar
+
+  COMO CRIAR O ARQUIVO:
+  1) Crie uma pasta no computador
+  2) Abra a pasta no VS Code
+  3) Crie um arquivo chamado index.html  (a extensão .html é obrigatória)
+  4) Digite ! e aperte Tab: o VS Code monta o esqueleto sozinho
+
+  Isto aqui é um COMENTÁRIO: o navegador ignora. Serve para anotar o código.
+-->
+
+<!-- Diz ao navegador: "este arquivo é HTML moderno (HTML5)". Sempre na primeira linha. -->
+<!doctype html>
+
+<!-- <html> envolve a página inteira. lang="pt-BR" diz que o idioma é português do Brasil. -->
+<html lang="pt-BR">
+  <!-- HEAD = a "cabeça": informações da página que NÃO aparecem na tela -->
+  <head>
+    <!-- Faz os acentos (ã, é, ç) aparecerem certinho -->
+    <meta charset="UTF-8" />
+    <!-- Deixa a página ajustada no celular -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Liga o arquivo de CSS (o visual da página). Vamos aprender isso na trilha de CSS. -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- O título que aparece na ABA do navegador -->
+    <title>Minha primeira página</title>
+  </head>
+
+  <!-- BODY = o "corpo": tudo que APARECE na tela fica aqui dentro -->
+  <body>
+    <!-- h1 = título principal. Use só UM por página. -->
+    <h1>Minha primeira página</h1>
+
+    <!-- p = parágrafo -->
+    <p>Olá, mundo! Esta é a minha primeira página feita com HTML.</p>
+
+    <h2>As partes de uma página HTML</h2>
+
+    <!-- Dica: para MOSTRAR uma tag na tela (sem o navegador executar),
+       escrevemos &lt; no lugar de < e &gt; no lugar de > -->
+    <ul>
+      <li><code>&lt;!DOCTYPE html&gt;</code>: avisa que é HTML5</li>
+      <li><code>&lt;html&gt;</code>: envolve tudo</li>
+      <li><code>&lt;head&gt;</code>: informações que não aparecem na tela</li>
+      <li><code>&lt;body&gt;</code>: o conteúdo que aparece na tela</li>
+    </ul>
+
+    <h2>Como uma tag funciona</h2>
+    <p>
+      Quase toda tag tem <strong>abertura</strong> e
+      <strong>fechamento</strong>: <code>&lt;p&gt;texto&lt;/p&gt;</code>. O
+      fechamento tem uma barra (/).
+    </p>
+
+    <!-- Rodapé com o meu nome -->
+    <footer>Feito por <strong>Raí Salazar</strong> | @devraisalazar</footer>
+  </body>
+</html>
